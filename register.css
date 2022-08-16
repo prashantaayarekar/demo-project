@@ -1,0 +1,54 @@
+.register-box-out{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.heading{
+   margin-bottom: 10px;
+   font-size: 40px;
+   color: rgb(0, 121, 173);
+}
+
+.register-box-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    width: 20%;
+    box-shadow: 1px 1px 10px black;
+    padding-top:20px;
+    padding-bottom:30px;
+    background-color: aliceblue;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    margin-top: 10px;
+}
+
+.input-box > label{
+   font-size: 18px;
+}
+
+.input-box-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+button{
+    margin-top: 20px;
+    width:60px;
+    height:30px;
+    padding:5px;
+    
+}
